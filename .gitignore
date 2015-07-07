@@ -1,0 +1,11 @@
+img/
+_素材/
+lib/
+backup/
+*/.DS_Store
+*/.txt
+works.html
+bkup.index.html
+htaccess.txt
+htpasswd.txt
+js/sample.js

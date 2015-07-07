@@ -1,0 +1,230 @@
+body{
+  font-family:"Roboto Condensed","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+  background: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+/* Common Setting */
+html { font-size: 62.5%; }
+body { font-size: 10px; font-size: 1.0rem; }
+h1 { margin: 0; text-align: center; padding-top: 30px;}
+h2 { text-align: center; margin-top: 60px;}
+h3 { font-size: 20px; font-size: 2.0rem; }
+h4 { font-size: 18px; font-size: 1.8rem; }
+h5 { font-size: 16px; font-size: 1.6rem; }
+h6 { font-size: 14px; font-size: 1.4rem; }
+p { font-size: 16px; font-size: 1.6rem; line-height: 2.1;}
+
+
+.bg-black{
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+.bg-white{
+  background: #fff;
+  color: #444;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.visual-01{
+  text-align: center;
+}
+.visual-02{
+  background: url(/img/visual-02.jpg) no-repeat center top;
+  background-size: 3043px 740px;
+  min-height: 740px;
+}
+.visual-03{
+  background: url(/img/visual-03.jpg) no-repeat center top;
+  background-size: 3043px 740px;
+  min-height: 740px;
+  padding-top: 60px;
+}
+.visual-04{
+  background: url(/img/bg-visual-04.png) repeat-x center bottom;
+}
+.visual-04-spot{
+  background: url(/img/visual-04.png) no-repeat center bottom;
+  min-height: 800px;
+}
+.visual-05{
+  background: url(/img/visual-05.jpg) repeat-x center top;
+  min-height: 350px;
+  padding-top: 50px;
+}
+.visual-06{
+  background: url(/img/visual-06.jpg?201412261253) #fef8f8 no-repeat center bottom;
+  background-size: 3043px 740px;
+  min-height: 850px;
+}
+.inner{
+  width: 980px;
+  text-align: left;
+  margin: 0 auto;
+}
+.visual-02 .inner{
+  position: relative;
+}
+.visual-02 .inner .box-text{
+  position:absolute;
+  top: 280px;
+  right: 50px;
+  width: 500px;
+  margin: 0;
+  color: #000;
+}
+.visual-04 .inner{
+  padding-top: 240px;
+}
+.visual-05 h2{
+  margin-top: 0;
+}
+.visual-06 .inner{
+  padding-top: 60px;
+}
+.visual-06 .inner .box-text{
+  margin-top: 0;
+}/* 
+multiple-items */
+.multiple-items{
+  margin: 70px 30px 0;
+}
+.slick-list{}
+.slick-prev:before {
+  content: url(/img/btn_pre.png);
+}
+.slick-next:before {
+content: url(/img/btn_nex.png);
+}
+.slick-prev, .slick-next{
+  height: 30px;
+  width: 30px;
+  margin-top: -15px;
+}
+.slick-prev{
+  left: -40px;
+}
+.slick-next{
+  right: -40px;
+}
+.slick-slide{
+  text-align: center;
+}
+.slick-slide img{
+  margin: 0 auto;
+}
+.slider{
+  position: relative;
+  width: 980px;
+  height: 116px;
+  margin: 60px 0 0;
+  
+}
+.btn_pre{
+  position: absolute;
+  width: 30px;
+  height: 116px;
+  background: url(/img/btn_pre.png) no-repeat left center;
+  cursor: pointer;
+}
+.btn_nex{
+  position: absolute;
+  width: 30px;
+  height: 116px;
+  background: url(/img/btn_nex.png) no-repeat left center;
+  right: 0;
+  cursor: pointer;
+  
+}
+.viewarea{
+  position: absolute;
+  overflow: hidden;
+  left: 60px;
+  width: 860px;
+  height: 116px;
+}
+.works{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin:0;
+  list-style: none;
+  width: 2180px;
+  height: 116px;
+}
+.works li{
+  float: left;
+  width: 200px;
+  margin-left: 20px;
+}
+.works li.first-child{
+  margin-left: 0;
+}
+.element {
+  padding: 0;
+  list-style: none;
+  margin: 65px 0 0;
+}
+.element li{
+  float: left;
+  width: 230px;
+  margin-left: 20px;
+}
+.element li.first-child{
+  margin-left: 0;
+}
+.box-text{
+  margin: 60px 180px 0;
+}
+#about{
+margin-top: 50px;
+}
+#info{
+  width: 460px;
+  float: left;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+#info table{
+  width: 100%;
+  border-top: 1px solid #A1A1A1;
+  border-bottom: 1px solid #A1A1A1;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#info th,
+#info td{
+  border-bottom: 1px dotted #A1A1A1;
+  padding: 10px;
+  vertical-align: top;
+  font-weight: normal;
+}
+p.btn_contact a{
+  display: block;
+  background: #949494;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+#map{
+  float: right;
+  width: 460px;
+  height: 322px;
+}
+.copyright{
+  text-align: center;
+  margin-top: 60px;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+.clearfix, heder, .works, .element, #about{
+  zoom:1;
+}
+.clearfix:after, heder:after, .works:after, .element:after, #about:after{
+  content: ""; 
+  display: block; 
+  clear: both;
+}
