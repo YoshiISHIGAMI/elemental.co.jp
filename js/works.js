@@ -117,5 +117,12 @@ $(function(){
     $('.close').click(function () {
       stopVideo($(self).data('controll-id'));
     });
+    // $('#modal_movie').on('show.bs.modal', function (event) {
+    //   var wH = $(window).height();
+    //   var button = $(event.relatedTarget)
+    //   var margin_left = button.data('margin_left');
+    //   var modal = $(this);
+    //   modal.find('#portfolio').css('margin-left', margin_left);
+    // });
   });
 });

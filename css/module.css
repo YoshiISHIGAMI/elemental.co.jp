@@ -4,6 +4,10 @@
 .modal-backdrop.fade.in{
   opacity: 1;
 }
+#modal_movie,
+#modal_web-print{
+  background-color: #000;
+}
 .modal-dialog{
   position: absolute;
   margin: 0;
