@@ -22,8 +22,8 @@
   <link rel="stylesheet" href="/css/module.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
   <script type="text/javascript" src="lib/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+  <script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
 
 
 
@@ -136,7 +136,7 @@
       slidesToScroll: 4
     });
   });
-</script><!--  -->
+</script>
 
       </div>
 
@@ -230,6 +230,7 @@
             infoWindow.open(map,marker);
 
             google.maps.event.addListener(marker, 'click', function() {
+              if (currentWindow) {
                 currentWindow.close();
                 }
               infoWindow.setContent(name);
