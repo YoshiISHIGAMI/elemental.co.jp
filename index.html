@@ -21,11 +21,11 @@
   <link rel="stylesheet" href="/css/structure.css">
   <link rel="stylesheet" href="/css/module.css">
 
+  <script src="lib/superscroll/TweenMax.min.js" type="text/javascript"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script type="text/javascript" src="lib/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+  <script src="lib/superscroll/jquery.superscrollorama.js" type="text/javascript"></script>
+  <script src="lib/bootstrap-3.3.4/js/bootstrap.min.js" type="text/javascript"></script>
   <script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
-
-
 
 </head>
 <body onload="initialize()">
@@ -47,7 +47,7 @@
     <div class="visual-02">
       <div class="inner">
         <div class="box-text">
-          <p>でも冬の樹が、季節（とき）が来れば景色を一変させる力を秘めているように、私たちでも、クリエイティブワークを通じて、少しだけなら世界を変えることができるかも知れない。そう夢見て、これまでも多くの作品づくりに関わらせていただきました。</p>
+          <p id="fade-it">でも冬の樹が、季節（とき）が来れば景色を一変させる力を秘めているように、私たちでも、クリエイティブワークを通じて、少しだけなら世界を変えることができるかも知れない。そう夢見て、これまでも多くの作品づくりに関わらせていただきました。</p>
         </div>
       </div>
     </div>
@@ -55,8 +55,8 @@
     <div class="visual-03">
     <div class="visual-04"><div class="visual-04-spot">
 
-      <div class="inner">
-        <h2><img src="img/h2_works.png" height="26" width="112" alt="WORKS"></h2>
+      <div id="fade-it-works" class="inner">
+        <h2 class="slide-bottom"><img src="img/h2_works.png" height="26" width="112" alt="WORKS"></h2>
 
 <div class="multiple-items">
 
@@ -151,7 +151,7 @@
         <div class="box-text">
           <p>私たちの周りにあるすべてのものは、この４エレメンツに起源を持つと言われます。</p>
         </div>
-        <ul class="element">
+        <ul id="fade-it-elements" class="element">
           <li class="first-child"><img src="img/fig_element-s.jpg" height="152" width="230" alt="風"></li>
           <li><img src="img/fig_element-f.jpg" height="152" width="230" alt="火"></li>
           <li><img src="img/fig_element-w.jpg" height="152" width="230" alt="水"></li>
@@ -163,7 +163,7 @@
 
     <div class="visual-06">
       <div class="inner">
-        <div class="box-text">
+        <div id="fade-it-thought" class="box-text">
           <p>だから、私たちは、ただ、エレメンタルでありたいと願います。<br>真っ直ぐ前に向かって懸命に走り続けているとき、ふと立ち止まり空を見上げてみるような、希望の力で高く高く積み重ねたブロックの前で、一度しゃがみ込んで一段目に触れてみるような。</p>
           <p>そこにはきっと、いつの間にか見落としていたものがある。紛れもない本物のエレメンツが存在している。<br>そう、信じているからです。</p>
           <p>私たちが作り出す映像やデザインツールの起源は、ご依頼いただくみなさまの思いです。それが、エレメンタルというフィルターを通し具現化したとき、きっと、世界が少しだけ動き出すことに、気づいていただけるはずです。</p>
@@ -303,7 +303,9 @@
       </div>
     </div>
   </div>
+
   <script src="https://www.youtube.com/iframe_api"></script>
   <script type="text/javascript" src="js/works.js"></script>
+
   </body>
 </html>

@@ -1,7 +1,4 @@
-
-/** 
- * youtube
- */
+/* youtube */
 var youtubeConfig = {
   player : [
     {
@@ -125,4 +122,11 @@ $(function(){
     //   modal.find('#portfolio').css('margin-left', margin_left);
     // });
   });
+
+  var controller = $.superscrollorama();
+  controller.addTween('#fade-it', TweenMax.from( $('#fade-it'), .5, {css:{opacity: 0}}));
+  controller.addTween('#fade-it-works', TweenMax.from( $('#fade-it-works'), .5, {css:{opacity: 0}}));
+  controller.addTween('#fade-it-elements', TweenMax.from( $('#fade-it-elements'), .5, {css:{opacity: 0}}));
+  controller.addTween('#fade-it-thought', TweenMax.from( $('#fade-it-thought'), .5, {css:{opacity: 0}}));
+  
 });
