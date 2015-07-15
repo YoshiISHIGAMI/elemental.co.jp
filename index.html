@@ -187,35 +187,30 @@
            <td>昭和61年9月3日</td>
          </tr>
          <tr>
-         <tr>
            <th>役員</th>
            <td>代表取締役　矢巻　聡</td>
          </tr>
-           <th>目黒オフィス</th>
-           <td>〒153-0042 東京都目黒区青葉台1-6-39<br>TEL 03-6416-0718</td>
-         </tr>
-         <tr>
+         <tr class="last">
            <th>本社</th>
-           <td>〒102-0074　東京都千代田区九段南3-5-5<br>TEL 03-5215-6754</td>
+           <td>〒153-0042 東京都目黒区青葉台1-6-39<br>TEL 03-6416-0718</td>
          </tr>
        </table>
        <p class="btn_contact"><a href="mailto:info@elemental.co.jp">info@elemental.co.jp</a></p>
       </div>
 
 
-          <script type="text/javascript">
+        <script type="text/javascript">
           var currentWindow = null;
           function initialize() {
             var myOptions = {
-              zoom: 12,
-              center: new google.maps.LatLng(35.677918, 139.712765),
+              zoom: 16,
+              center: new google.maps.LatLng(35.647753, 139.700064),
               mapTypeId: google.maps.MapTypeId.ROADMAP,
               scrollwheel: false
             };
             var map = new google.maps.Map(document.getElementById("map"),myOptions);
             var markers = [
-              ['目黒オフィス', 35.647758, 139.700030, 1],
-              ['本社', 35.692422, 139.742401, 2]
+              ['本社', 35.647758, 139.700030, 1]
              ];
             for (var i = 0; i < markers.length; i++) {
               var name = markers[i][0];
@@ -239,8 +234,8 @@
             });
           }
           google.maps.event.addDomListener(window, 'load', initialize);
-          </script>
-          <div id="map"></div>
+        </script>
+        <div id="map"></div>
           </div>
           <p class="copyright">&copy; 2015 ELEMENTAL CO LTD.</p>
       </div>

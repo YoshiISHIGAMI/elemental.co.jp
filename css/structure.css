@@ -86,7 +86,8 @@ p { font-size: 16px; font-size: 1.6rem; line-height: 2.1;}
 }
 .visual-06 .inner .box-text{
   margin-top: 0;
-}/* 
+}
+/* 
 multiple-items */
 .multiple-items{
   margin: 70px 30px 0;
@@ -191,16 +192,22 @@ margin-top: 50px;
 #info table{
   width: 100%;
   border-top: 1px solid #A1A1A1;
-  border-bottom: 1px solid #A1A1A1;
+  /*border-bottom: 1px solid #A1A1A1;*/
   border-collapse: collapse;
   border-spacing: 0;
 }
 #info th,
 #info td{
   border-bottom: 1px dotted #A1A1A1;
-  padding: 10px;
+  padding: 20px;
   vertical-align: top;
   font-weight: normal;
+}
+#info .last th, #info .last td{
+  border-bottom: none;
+}
+p.btn_contact{
+  margin: 5px 0 0;
 }
 p.btn_contact a{
   display: block;
