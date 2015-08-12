@@ -190,9 +190,27 @@
            <th>役員</th>
            <td>代表取締役　矢巻　聡</td>
          </tr>
-         <tr class="last">
+         <tr>
            <th>本社</th>
-           <td>〒153-0042 東京都目黒区青葉台1-6-39<br>TEL 03-6416-0718</td>
+           <td>〒153-0042 東京都目黒区青葉台1-6-39-302
+<dl class="address">
+  <dt>TEL</dt>
+  <dd>03-6416-0718</dd>
+  <dt>FAX</dt>
+  <dd>03-6416-0968</dd>
+</dl>
+</td>
+         </tr>
+         <tr class="last">
+           <th>新宿オフィス</th>
+           <td>〒160－0022 東京都新宿区新宿1-32-4-3F
+<dl class="address">
+  <dt>TEL</dt>
+  <dd>03-5315-4588</dd>
+  <dt>FAX</dt>
+  <dd>03-6457-7494</dd>
+</dl>
+</td>
          </tr>
        </table>
        <p class="btn_contact"><a href="mailto:info@elemental.co.jp">info@elemental.co.jp</a></p>
@@ -203,14 +221,16 @@
           var currentWindow = null;
           function initialize() {
             var myOptions = {
-              zoom: 16,
-              center: new google.maps.LatLng(35.647753, 139.700064),
+              zoom: 12,
+              center: new google.maps.LatLng(35.677830, 139.710373),
+              
               mapTypeId: google.maps.MapTypeId.ROADMAP,
               scrollwheel: false
             };
             var map = new google.maps.Map(document.getElementById("map"),myOptions);
             var markers = [
-              ['本社', 35.647758, 139.700030, 1]
+              ['本社', 35.647541, 139.700053, 1],
+              ['新宿オフィス', 35.690550, 139.711746, 2]
              ];
             for (var i = 0; i < markers.length; i++) {
               var name = markers[i][0];

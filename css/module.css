@@ -113,6 +113,14 @@
   opacity: .8;
   margin-top: 10px;
 }
+.address dt{
+  width: 3.5em;
+  font-weight: normal;;
+}
+.address dd{
+  margin-left: 3.5em;
+  margin-top: -1.45em;
+}
 /*clearfix
 ---------------------------------------------------------------------*/
 .movieArena:before, .movieArena:after,
